@@ -1,0 +1,71 @@
+body {
+    font-family: 'Montserrat', 'Franklin Gothic Medium', Arial, sans-serif;
+    font-weight: 400;
+    background: #eee;
+}
+.menu1 {
+    background: #333;
+    color: #ccc;
+}
+.menu2 {
+    background: white;
+}
+.menu2 li {
+    font-family: 'Miriam Libre', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.grid-3x2 {
+    display: grid;
+    height: 75vh;
+    max-height: 560px;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    padding: 8px;
+}
+
+.cover-logo {
+    margin: 20px 0 0 20px;
+    grid-area: 1 / 1 / span 2 / span 1;
+    width: 100%;
+    background: url(img/featured/tnw.svg) no-repeat;
+    z-index: 2;
+}
+.cover-story {
+    background-color: #444; /* just for checking grid area */
+    grid-column: 3 / span 1;
+    
+}
+.cover-story:first-child {
+    grid-area: 1 / 1 / span 2 / span 2;
+    display: grid;
+}
+
+.story1 {
+    background: linear-gradient(to top, #000, #33333300), url(img/featured/Qurator-1-of-1-796x417.jpg) center/cover no-repeat;
+}
+.story2 {
+    background: linear-gradient(to top, #000, #33333300), url(img/featured/header-image-google-pixel-iphone-pro-4k-60fps-796x417.png) center/cover no-repeat;
+}
+.story3 {
+    background: linear-gradient(to top, #000, #33333300), url(img/featured/syndication9-copy-796x417.jpg) center/cover no-repeat;
+}
+
+.cover-gradient {
+    grid-area: 1 / 1 / -1 / -1;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    
+}
+.cover-gradient:hover {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.red {
+    /* background: red; */
+    color: white;
+    /* grid-area: 2 / 2; */
+    z-index: 10;
+}
