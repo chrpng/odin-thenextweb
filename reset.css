@@ -33,7 +33,8 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style-position: outside;
+	list-style-type: dot;
 }
 blockquote, q {
 	quotes: none;

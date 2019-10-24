@@ -4,72 +4,677 @@
     <meta charset="UTF-9">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Miriam+Libre:700|Montserrat:400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Miriam+Libre:700|Montserrat:400,800&display=swap" rel="stylesheet">
     <title>The Next Web</title>
 </head>
 <body>
-    <nav>
-        <div class="menu1">
-            <ul class="left-container">
-                <li>News</li>
-                <li>Events</li>
-                <li>Business</li>
-                <li>AMAs</li>
-                <li>Spaces</li>
-                <li>Terms & Conditions</li>
-            </ul>
-            <ul class="right-container">
-                <li>About</li>
-                <li>Team</li>
-                <li>Advertise</li>
-                <li>Jobs</li>
-                <li>Contact</li>
-            </ul>
+    <div class="menu1">
+        <ul class="left-container">
+            <li>News</li>
+            <li>Events</li>
+            <li>Business</li>
+            <li>AMAs</li>
+            <li>Spaces</li>
+            <li>Terms & Conditions</li>
+        </ul>
+        <ul class="right-container">
+            <li>About</li>
+            <li>Team</li>
+            <li>Advertise</li>
+            <li>Jobs</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="nav-logo">
+        <img src="img/featured/tnw.svg" alt="">
+    </div>
+    <div class="menu2">
+        <ul class="left-container">
+            <li>Latest</li>
+            <li>Hard Fork</li>
+            <li>Plugged</li>
+            <li>Fundamentals</li>
+            <li>Work 2030</li>
+        </ul>
+        <ul class="right-container">
+            <button></button>
+        </ul>
+    </div>
+    <section class="grid-3 featured-gradient">
+        <div class="cover-story-container"> <!-- display: contents makes this purely semantic so can't reference this for subelement dimensions-->
+            <div class="relative-pos story1"> <!-- use this div to fill the grid cell -->
+                <a href="#story">
+                    <div class="cover-shade">
+                        <div class="cover-logo"></div>
+                        <div class="info">
+                            <div class="topic">World</div>
+                            <h2 class="title">NATO’s going to call space a war zone, but don’t worry there won’t be any fighting</h2>
+                        </div>
+                    </div>
+                </a>
+                <div class="author-info">
+                    <div class="author">by 
+                        <a href="#conversation">The Conversation</a>
+                    </div>
+                    <div class="time">1 hour ago</div>
+                    <div class="interaction">1</div>
+                </div>
+            </div>
         </div>
-        <div class="menu2">
-            <ul>
-                <li>Latest</li>
-                <li>Hard Fork</li>
-                <li>Plugged</li>
-                <li>Fundamentals</li>
-                <li>Work 2030</li>
-            </ul>
+        <div class="cover-story-container">
+            <div class="relative-pos story2">
+                <a href="#story">
+                    <div class="cover-shade">
+                        <div class="info">
+                            <div class="topic">Podium</div>
+                            <h2 class="title">It doesn’t matter ‘who’ hacked your business</h2>
+                        </div>
+                    </div>
+                </a>   
+                <div class="author-info">
+                    <div class="author">by 
+                        <a href="">J.J. Thompson</a>
+                    </div>
+                    <div class="time">2 hours ago</div>
+                    <div class="interaction">19</div>
+                </div>
+            </div>
         </div>
-    </nav>
+        <div class="cover-story-container">
+            <div class="relative-pos story3">
+                <a href="#story">
+                    <div class="cover-shade">
+                        <div class="info">
+                            <div class="topic">Insights</div>
+                            <h2 class="title">Satoshi Nakaboto: ‘Bitcoin’s median transaction fee hits 8-month low’</h2>
+                        </div>
+                    </div>
+                </a>
+                <div class="author-info">
+                    <div class="author">by 
+                        <a href="#conversation">Satoshi Nakaboto</a>                        
+                    </div>
+                    <div class="time">3 hour ago</div>
+                    <div class="interaction">31</div>
+                </div>
+            </div>
+        </div>
+    </section>
     <main>
-        <div class="cover-stories-container2 grid-3x2">
-            <a class="cover-story story1">
-                <div class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aliquid officiis perferendis voluptas numquam. Obcaecati, labore dicta. Est quam dicta obcaecati vitae quidem praesentium minus ullam, at cum? Labore, dignissimos.</div>
-                <div class="cover-gradient"></div>
-            </a>
-            <div class="cover-story story2">
-                <div class="cover-gradient"></div>
+        <section class="latest-news">
+            <header>
+                <h1>Latest news</h1>
+            </header>
+            <div class="grid-4">
+                <div class="news-item">
+                    <div class="image"></div>
+                    <div class="grid-4-description">
+                        <div>
+                            <h3>Supply chains show their weaknesses following Avast and NordVPN attacks</h3>
+                        </div>
+                        <div class="author-info">
+                            <div class="author">Ravie Lakshmanan</div>
+                            <div class="time">11 minutes ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="image"></div>
+                    <div class="grid-4-description">
+                        <div>
+                            <h3>CHEAP: Dive deep with GoPro Hero 7 black waterproof for just $343</h3>
+                        </div>
+                        <div class="author-info">
+                            <div class="author">Ivan Mehta</div>
+                            <div class="time">21 minutes ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="image"></div>
+                    <div class="grid-4-description">
+                        <div>
+                            <h3>This marketing hall of famer, Seth Godin, is sharing his freelancing secrets for only $19</h3>
+                        </div>
+                        <div class="author-info">
+                            <div class="author">TNW Deals</div>
+                            <div class="time">1 hour ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="image"></div>
+                    <div class="grid-4-description">
+                        <div>
+                            <h3>5 reasons why Amsterdam is great for blockchain tech development</h3>
+                        </div>
+                        <div class="author-info">
+                            <div class="author">Matthew Beedham</div>
+                            <div class="time">4 hours ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="image"></div>
+                    <div class="grid-4-description">
+                        <div>
+                            <h3>Facebook will clearly label fake news to prevent 2020 ‘election interference'</h3>
+                        </div>
+                        <div class="author-info">
+                            <div class="author">Cara Curtis</div>
+                            <div class="time">4 hours ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="image"></div>
+                    <div class="grid-4-description">
+                        <div>
+                            <h3>Uber will let you book Delhi metro tickets on its app (at some point)</h3>
+                        </div>
+                        <div class="author-info">
+                            <div class="author">Ivan Mehta</div>
+                            <div class="time">5 hours ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="image"></div>
+                    <div class="grid-4-description">
+                        <div>
+                            <h3>Russian cyber spooks piggyback Iranian hackers to spy on 35 countries</h3>
+                        </div>
+                        <div class="author-info">
+                            <div class="author">Ravie Lakshmanan</div>
+                            <div class="time">6 hours ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="image"></div>
+                    <div class="grid-4-description">
+                        <div>
+                            <h3>Amazon joins Facebook and Microsoft to fight deepfakes</h3>
+                        </div>
+                        <div class="author-info">
+                            <div class="author">Ivan Mehta</div>
+                            <div class="time">7 hours ago</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="cover-story story3">
-                <div class="cover-gradient"></div>
+        </section>
+        <section class="latest-funding">
+            <header>
+                <h1>Latest funding rounds on Index.co</h1>
+                <ul>
+                    <li>Add info</li>
+                    <li>Get updates by email</li>
+                    <li>See more</li>
+                </ul>
+            </header>
+            <div class="grid-4">
+                <div class="funding-item">
+                    <img src="img/funding/Splashlight.jpg" alt="funding item">
+                    <h3>Splashlight Studios</h3>
+                    <div class="fund-amount">
+                        <h3>Undisclosed amount</h3>
+                        <h5>Undisclosed funding</h5>
+                    </div>
+                    <div class="fund-description">
+                        <div>Boathouse Capital</div>
+                    </div>
+                    <div class="fund-source">Splashlight Receives Investment from Boathouse Capital <span>on FinSMEs</span></div>
+                </div>
+                <div class="funding-item">
+                    <img src="img/funding/Edukasyon.jpg" alt="funding item">
+                    <h3>Edukasyon.ph</h3>
+                    <div class="fund-amount">
+                        <h3>Undisclosed amount</h3>
+                        <h5>Series A</h5>
+                    </div>
+                    <div class="fund-description">
+                        <div>EdTech</div>
+                        <div>First Asia Venture Capital</div>
+                    </div>
+                    <div class="fund-source">Philippine edtech stratup Edukasyon.ph makes initial close of Series A funding <span>on DealStreetAsia</span></div>
+                </div>
+                <div class="funding-item">
+                    <img src="img/funding/Beam.jpg" alt="funding item">
+                    <h3>Beam</h3>
+                    <div class="fund-amount">
+                        <h3>$5M</h3>
+                        <h5>Seed Fund</h5>
+                    </div>
+                    <div class="fund-description">
+                        <div>Health and Wellness</div>
+                        <div>C2 Ventures, +2</div>
+                    </div>
+                    <div class="fund-source">beam Raises $5M in Seed Funding <span>on FinSMEs</span></div>
+                </div>
+                <div class="funding-item">
+                    <img src="img/funding/Verix.jpg" alt="funding item">
+                    <h3>Verix</h3>
+                    <div class="fund-amount">
+                        <h3>$8M</h3>
+                        <h5>Series A</h5>
+                    </div>
+                    <div class="fund-description">
+                        <div>Analytics</div>
+                        <div>Western Technology Investment, +2</div>
+                    </div>
+                    <div class="fund-source">Verix Health Raises $8M in Series A Funding <span>on FinSMEs</span></div>
+                </div>
             </div>
-            <div class="cover-logo"></div>
-        </div>
-        <div class="latest-news grid-4x2"></div>
-        <div class="latest-funding grid-4x1"></div>
-        <div class="categories grid-3"></div>
-        <div class="latest-deals grid-4x2"></div>
+        </section>
+        <section class="categories">
+            <div class="grid-3x3">
+                <div class="apps">
+                    <header>
+                        <h1>Apps</h1>
+                    </header>
+                    <div class="relative-pos apps-image"> <!-- use this div to fill the grid cell -->
+                        <a href="#story">
+                            <div class="cover-logo"></div>
+                            <div class="info">
+                                <div class="topic">Most Popular</div>
+                                <h2 class="title">Here's why Disney+ may not work on your phone</h2>
+                            </div>
+                        </a>
+                        <div class="author-info">
+                            <div class="author">
+                                <a href="#conversation">Ivan Mehta</a>
+                            </div>
+                            <div class="time">5 hours ago</div>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <img src="img/apps/uber-screener.png" alt="uber screener">
+                        <div>
+                            <h5>Latest</h5>
+                            <h4><a href="#">Uber will let you book Delhi metro tickets on its app (at some point)</a></h4>
+                        </div>
+                    </div>
+                    <ul class="more-news">
+                        <li><a href="#">Amazon joins Facebook and Microsoft to fight deepfakes</a></li>
+                        <li><a href="#">TikTok fights back against ISIS propaganda</a></li>
+                        <li><a href="#">Qurator found a way to fix Rotten Tomatoes. Quiz the trolls</a></li>
+                        <li><a href="#">Instagram is testing a feature to clean up your pity follows</a></li>
+                        <li><a href="#">Facebook begins testing dark mode and a Twitter-like interface for desktop</a></li>
+                    </ul>
+                </div>
+                <div class="gear">
+                    <header>
+                        <h1>Gear</h1>
+                    </header>
+                    <div class="relative-pos gear-image"> <!-- use this div to fill the grid cell -->
+                        <a href="#story">
+                            <div class="cover-logo"></div>
+                            <div class="info">
+                                <div class="topic">Most Popular</div>
+                                <h2 class="title">The spo0o0ookiest Halloween gift guide for consumerist ghouls</h2>
+                            </div>
+                        </a>
+                        <div class="author-info">
+                            <div class="author">
+                                <a href="#conversation">Callum Booth</a>
+                            </div>
+                            <div class="time">57 minutes ago</div>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <img src="img/apps/uber-screener.png" alt="uber screener">
+                        <div>
+                            <h5>Latest</h5>
+                            <h4><a href="#">CHEAP: Toughen up your data with a 1TB SanDisk External SSD for $179</a></h4>
+                        </div>
+                    </div>
+                    <ul class="more-news">
+                        <li><a href="#">CHEAP: Dive deep with GoPro Hero 7 black waterproof for just $343</a></li>
+                        <li><a href="#">The WiCub 2 is an air quality monitor for data nerds like me</a></li>
+                        <li><a href="#">JBL 100 Classic Review: An iconic '70s speaker revived as a modern standout</a></li>
+                        <li><a href="#">Huawei's foldable Mate X arrives November 15 (in China)</a></li>
+                        <li><a href="#">CHEAP: Toughen up your data with a 1TB SanDisk External SSD for $179</a></li>
+                    </ul>
+                </div>
+                <div class="tech">
+                    <header>
+                        <h1>Tech</h1>
+                    </header>
+                    <div class="relative-pos apps-image"> <!-- use this div to fill the grid cell -->
+                        <a href="#story">
+                            <div class="cover-logo"></div>
+                            <div class="info">
+                                <div class="topic">Most Popular</div>
+                                <h2 class="title">Here's why Disney+ may not work on your phone</h2>
+                            </div>
+                        </a>
+                        <div class="author-info">
+                            <div class="author">
+                                <a href="#conversation">Ivan Mehta</a>
+                            </div>
+                            <div class="time">5 hours ago</div>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <img src="img/apps/uber-screener.png" alt="uber screener">
+                        <div>
+                            <h5>Latest</h5>
+                            <h4><a href="#">Uber will let you book Delhi metro tickets on its app (at some point)</a></h4>
+                        </div>
+                    </div>
+                    <ul class="more-news">
+                        <li><a href="#">Amazon joins Facebook and Microsoft to fight deepfakes</a></li>
+                        <li><a href="#">TikTok fights back against ISIS propaganda</a></li>
+                        <li><a href="#">Qurator found a way to fix Rotten Tomatoes. Quiz the trolls</a></li>
+                        <li><a href="#">Instagram is testing a feature to clean up your pity follows</a></li>
+                        <li><a href="#">Facebook begins testing dark mode and a Twitter-like interface for desktop</a></li>
+                    </ul>
+                </div>
+                <div class="creative">
+                    <header>
+                        <h1>Creative</h1>
+                    </header>
+                    <div class="relative-pos gear-image"> <!-- use this div to fill the grid cell -->
+                        <a href="#story">
+                            <div class="cover-logo"></div>
+                            <div class="info">
+                                <div class="topic">Most Popular</div>
+                                <h2 class="title">The spo0o0ookiest Halloween gift guide for consumerist ghouls</h2>
+                            </div>
+                        </a>
+                        <div class="author-info">
+                            <div class="author">
+                                <a href="#conversation">Callum Booth</a>
+                            </div>
+                            <div class="time">57 minutes ago</div>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <img src="img/apps/uber-screener.png" alt="uber screener">
+                        <div>
+                            <h5>Latest</h5>
+                            <h4><a href="#">CHEAP: Toughen up your data with a 1TB SanDisk External SSD for $179</a></h4>
+                        </div>
+                    </div>
+                    <ul class="more-news">
+                        <li><a href="#">CHEAP: Dive deep with GoPro Hero 7 black waterproof for just $343</a></li>
+                        <li><a href="#">The WiCub 2 is an air quality monitor for data nerds like me</a></li>
+                        <li><a href="#">JBL 100 Classic Review: An iconic '70s speaker revived as a modern standout</a></li>
+                        <li><a href="#">Huawei's foldable Mate X arrives November 15 (in China)</a></li>
+                        <li><a href="#">CHEAP: Toughen up your data with a 1TB SanDisk External SSD for $179</a></li>
+                    </ul>
+                </div>
+                <div class="podium">
+                    <header>
+                        <h1>Podium</h1>
+                    </header>
+                    <div class="relative-pos apps-image"> <!-- use this div to fill the grid cell -->
+                        <a href="#story">
+                            <div class="cover-logo"></div>
+                            <div class="info">
+                                <div class="topic">Most Popular</div>
+                                <h2 class="title">Here's why Disney+ may not work on your phone</h2>
+                            </div>
+                        </a>
+                        <div class="author-info">
+                            <div class="author">
+                                <a href="#conversation">Ivan Mehta</a>
+                            </div>
+                            <div class="time">5 hours ago</div>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <img src="img/apps/uber-screener.png" alt="uber screener">
+                        <div>
+                            <h5>Latest</h5>
+                            <h4><a href="#">Uber will let you book Delhi metro tickets on its app (at some point)</a></h4>
+                        </div>
+                    </div>
+                    <ul class="more-news">
+                        <li><a href="#">Amazon joins Facebook and Microsoft to fight deepfakes</a></li>
+                        <li><a href="#">TikTok fights back against ISIS propaganda</a></li>
+                        <li><a href="#">Qurator found a way to fix Rotten Tomatoes. Quiz the trolls</a></li>
+                        <li><a href="#">Instagram is testing a feature to clean up your pity follows</a></li>
+                        <li><a href="#">Facebook begins testing dark mode and a Twitter-like interface for desktop</a></li>
+                    </ul>
+                </div>
+                <div class="insights">
+                    <header>
+                        <h1>Insights</h1>
+                    </header>
+                    <div class="relative-pos gear-image"> <!-- use this div to fill the grid cell -->
+                        <a href="#story">
+                            <div class="cover-logo"></div>
+                            <div class="info">
+                                <div class="topic">Most Popular</div>
+                                <h2 class="title">The spo0o0ookiest Halloween gift guide for consumerist ghouls</h2>
+                            </div>
+                        </a>
+                        <div class="author-info">
+                            <div class="author">
+                                <a href="#conversation">Callum Booth</a>
+                            </div>
+                            <div class="time">57 minutes ago</div>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <img src="img/apps/uber-screener.png" alt="uber screener">
+                        <div>
+                            <h5>Latest</h5>
+                            <h4><a href="#">CHEAP: Toughen up your data with a 1TB SanDisk External SSD for $179</a></h4>
+                        </div>
+                    </div>
+                    <ul class="more-news">
+                        <li><a href="#">CHEAP: Dive deep with GoPro Hero 7 black waterproof for just $343</a></li>
+                        <li><a href="#">The WiCub 2 is an air quality monitor for data nerds like me</a></li>
+                        <li><a href="#">JBL 100 Classic Review: An iconic '70s speaker revived as a modern standout</a></li>
+                        <li><a href="#">Huawei's foldable Mate X arrives November 15 (in China)</a></li>
+                        <li><a href="#">CHEAP: Toughen up your data with a 1TB SanDisk External SSD for $179</a></li>
+                    </ul>
+                </div>
+                <div class="launch">
+                    <header>
+                        <h1>Launch</h1>
+                    </header>
+                    <div class="relative-pos apps-image"> <!-- use this div to fill the grid cell -->
+                        <a href="#story">
+                            <div class="cover-logo"></div>
+                            <div class="info">
+                                <div class="topic">Most Popular</div>
+                                <h2 class="title">Here's why Disney+ may not work on your phone</h2>
+                            </div>
+                        </a>
+                        <div class="author-info">
+                            <div class="author">
+                                <a href="#conversation">Ivan Mehta</a>
+                            </div>
+                            <div class="time">5 hours ago</div>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <img src="img/apps/uber-screener.png" alt="uber screener">
+                        <div>
+                            <h5>Latest</h5>
+                            <h4><a href="#">Uber will let you book Delhi metro tickets on its app (at some point)</a></h4>
+                        </div>
+                    </div>
+                    <ul class="more-news">
+                        <li><a href="#">Amazon joins Facebook and Microsoft to fight deepfakes</a></li>
+                        <li><a href="#">TikTok fights back against ISIS propaganda</a></li>
+                        <li><a href="#">Qurator found a way to fix Rotten Tomatoes. Quiz the trolls</a></li>
+                        <li><a href="#">Instagram is testing a feature to clean up your pity follows</a></li>
+                        <li><a href="#">Facebook begins testing dark mode and a Twitter-like interface for desktop</a></li>
+                    </ul>
+                </div>
+                <div class="distract">
+                    <header>
+                        <h1>Distract</h1>
+                    </header>
+                    <div class="relative-pos gear-image"> <!-- use this div to fill the grid cell -->
+                        <a href="#story">
+                            <div class="cover-logo"></div>
+                            <div class="info">
+                                <div class="topic">Most Popular</div>
+                                <h2 class="title">The spo0o0ookiest Halloween gift guide for consumerist ghouls</h2>
+                            </div>
+                        </a>
+                        <div class="author-info">
+                            <div class="author">
+                                <a href="#conversation">Callum Booth</a>
+                            </div>
+                            <div class="time">57 minutes ago</div>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <img src="img/apps/uber-screener.png" alt="uber screener">
+                        <div>
+                            <h5>Latest</h5>
+                            <h4><a href="#">CHEAP: Toughen up your data with a 1TB SanDisk External SSD for $179</a></h4>
+                        </div>
+                    </div>
+                    <ul class="more-news">
+                        <li><a href="#">CHEAP: Dive deep with GoPro Hero 7 black waterproof for just $343</a></li>
+                        <li><a href="#">The WiCub 2 is an air quality monitor for data nerds like me</a></li>
+                        <li><a href="#">JBL 100 Classic Review: An iconic '70s speaker revived as a modern standout</a></li>
+                        <li><a href="#">Huawei's foldable Mate X arrives November 15 (in China)</a></li>
+                        <li><a href="#">CHEAP: Toughen up your data with a 1TB SanDisk External SSD for $179</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="latest-deals">
+                <header>
+                    <h1>Latest deals</h1>
+                </header>
+                <div class="grid-4">
+                    <div class="deals-item">
+                        <div class="image"></div>
+                        <div class="grid-4-description">
+                        	<div>
+                        	    <h3>Supply chains show their weaknesses following Avast and NordVPN attacks</h3>
+                        	</div>
+                        	<div class="author-info">
+                        	    <div class="author">Ravie Lakshmanan</div>
+                        	    <div class="time">11 minutes ago</div>
+                        	</div>
+                        </div>
+                    </div>
+                    <div class="deals-item">
+                        <div class="image"></div>
+                        <div class="grid-4-description">
+                            <div>
+                                <h3>CHEAP: Dive deep with GoPro Hero 7 black waterproof for just $343</h3>
+                            </div>
+                            <div class="author-info">
+                                <div class="author">Ivan Mehta</div>
+                                <div class="time">21 minutes ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deals-item">
+                        <div class="image"></div>
+                        <div class="grid-4-description">
+                            <div>
+                                <h3>This marketing hall of famer, Seth Godin, is sharing his freelancing secrets for only $19</h3>
+                            </div>
+                            <div class="author-info">
+                                <div class="author">TNW Deals</div>
+                                <div class="time">1 hour ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deals-item">
+                        <div class="image"></div>
+                        <div class="grid-4-description">
+                            <div>
+                                <h3>5 reasons why Amsterdam is great for blockchain tech development</h3>
+                            </div>
+                            <div class="author-info">
+                                <div class="author">Matthew Beedham</div>
+                                <div class="time">4 hours ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deals-item">
+                        <div class="image"></div>
+                        <div class="grid-4-description">
+                            <div>
+                                <h3>Facebook will clearly label fake news to prevent 2020 ‘election interference'</h3>
+                            </div>
+                            <div class="author-info">
+                                <div class="author">Cara Curtis</div>
+                                <div class="time">4 hours ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deals-item">
+                        <div class="image"></div>
+                        <div class="grid-4-description">
+                            <div>
+                                <h3>Uber will let you book Delhi metro tickets on its app (at some point)</h3>
+                            </div>
+                            <div class="author-info">
+                                <div class="author">Ivan Mehta</div>
+                                <div class="time">5 hours ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deals-item">
+                        <div class="image"></div>
+                        <div class="grid-4-description">
+                            <div>
+                                <h3>Russian cyber spooks piggyback Iranian hackers to spy on 35 countries</h3>
+                            </div>
+                            <div class="author-info">
+                                <div class="author">Ravie Lakshmanan</div>
+                                <div class="time">6 hours ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deals-item">
+                        <div class="image"></div>
+                        <div class="grid-4-description">
+                            <div>
+                                <h3>Amazon joins Facebook and Microsoft to fight deepfakes</h3>
+                            </div>
+                            <div class="author-info">
+                                <div class="author">Ivan Mehta</div>
+                                <div class="time">7 hours ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </main>
     <footer>
         <div class="footer-nav">
-            <div class="social"></div>
+            <div class="social">
+                <a href="#"><div class="icon icon-facebook"></div></a>
+                <a href="#"><div class="icon icon-twitter"></div></a>
+                <a href="#"><div class="icon icon-youtube"></div></a>
+                <a href="#"><div class="icon icon-instagram"></div></a>
+                <a href="#"><div class="icon icon-pinterest"></div></a>
+                <a href="#"><div class="icon icon-rss"></div></a>
+                <a href="#"><div class="icon icon-mail"></div></a>
+            </div>
             <ul>
                 <li>Events</li>
                 <li>About</li>
-                <li>Team</li>
+                <li class="team">Team</li>
                 <li>Advertise</li>
                 <li>Jobs</li>
                 <li>Contact</li>
             </ul>
         </div>
-        <div class="copyright"></div>
+        <div class="copyright">
+            <span><img src="img/featured/tnw.svg" alt=""> © 2006–2019 The Next Web B.V.</span>
+            <span>Made with <span class="heart">♥</span> in Amsterdam.</span>
+            <span>Powered by <img src="img/footer/stackpath.svg" alt=""></span>
+        </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
